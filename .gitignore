@@ -19,4 +19,8 @@
 !/README.md
 !/CHANGELOG.md
 
+# Keep the sample/example app
+!/VendingIosSDKSampleApp/
+!/VendingIosSDKSampleApp/**
+
 
