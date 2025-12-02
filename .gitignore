@@ -1,48 +1,16 @@
-.DS_Store
+#
+# Artifact-only repository:
+# Keep ONLY the output of `build-xcframework.sh` (the contents of `build/`)
+# in version control and ignore everything else.
+#
 
-# Xcode build artifacts
-build/
-DerivedData/
+# Ignore everything by default
+*
 
-# Xcode user-specific data
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-*.moved-aside
-*.xccheckout
-*.xcscmblueprint
+# But keep gitignore itself
+!.gitignore
 
-# Archives & debug symbols
-*.xcarchive
-*.ipa
-*.dSYM
-
-# Swift Package Manager local data
-.swiftpm/
-
-# CocoaPods (if ever used locally)
-Pods/
-
-# Carthage (if ever used locally)
-Carthage/Build/
-
-# Fastlane (if ever used)
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-
-# EVIS documentation and other non-deployment docs
-EVIS-Dokumentation/
-XCODE_SETUP_NOTES.md
-
-# Sample app (not part of the distributable SDK)
-VendingIosSDKSampleApp/
-
+# Keep the built artifacts
+!/build/
+!/build/**
 
