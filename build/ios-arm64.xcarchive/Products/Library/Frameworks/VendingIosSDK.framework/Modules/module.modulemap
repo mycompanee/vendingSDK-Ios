@@ -1,0 +1,11 @@
+framework module VendingIosSDK {
+  umbrella header "VendingIosSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module VendingIosSDK.Swift {
+  header "VendingIosSDK-Swift.h"
+  requires objc
+}
