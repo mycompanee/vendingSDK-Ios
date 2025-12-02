@@ -14,3 +14,9 @@
 !/build/
 !/build/**
 
+# Keep selected metadata files
+!/LICENSE
+!/README.md
+!/CHANGELOG.md
+
+
