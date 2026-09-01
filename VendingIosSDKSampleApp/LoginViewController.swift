@@ -68,6 +68,12 @@ class LoginViewController: UIViewController {
     // MARK: - Keyboard Management
     private var keyboardHeight: CGFloat = 0
     
+    // Current session values (for training article assignment UI)
+    private var currentAuthKey: String?
+    private var currentApiKey: String?
+    private var currentMachineNumber: Int32?
+    private var currentVendingBaseData: VendingBaseDataResponse?
+    
     private let startVendingButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Start Vending", for: .normal)
@@ -321,12 +327,183 @@ class LoginViewController: UIViewController {
             return 30.0 // Default value
         }()
         
+        // Check whether the purse is a training purse and ask the user how to proceed
+        VendingSDK.shared.getPurseInfo(authKey: authKey, apiKey: apiKey) { [weak self] result in
+            DispatchQueue.main.async {
+                guard let self = self else { return }
+                switch result {
+                case .success(let purse):
+                    if VendingSDK.isTrainingPurse(purse) {
+                        self.presentTrainingModeDialog(
+                            authKey: authKey,
+                            apiKey: apiKey,
+                            machineNumber: machineNumber,
+                            connectionTimeout: connectionTimeout
+                        )
+                    } else {
+                        self.presentCostCenterSelectionIfNeeded(
+                            authKey: authKey,
+                            apiKey: apiKey,
+                            machineNumber: machineNumber,
+                            connectionTimeout: connectionTimeout,
+                            trainingMode: false
+                        )
+                    }
+                case .failure(let error):
+                    self.resetUI()
+                    self.statusTextView.text = "Failed to load purse info: \(error.localizedDescription)\n"
+                }
+            }
+        }
+    }
+    
+    /// Ask the user whether to start in training mode (matches legacy "Im Trainingsmodus starten?")
+    private func presentTrainingModeDialog(
+        authKey: String,
+        apiKey: String,
+        machineNumber: Int32,
+        connectionTimeout: TimeInterval
+    ) {
+        let alert = UIAlertController(
+            title: "Im Trainingsmodus starten?",
+            message: "Es werden keine echten Transaktionen gebucht. Artikel können Wahltasten zugeordnet werden.",
+            preferredStyle: .alert
+        )
+        alert.addAction(UIAlertAction(title: "Ja", style: .default) { [weak self] _ in
+            // Training mode: skip the cost center selection (no real transactions are booked)
+            self?.beginVending(
+                authKey: authKey,
+                apiKey: apiKey,
+                machineNumber: machineNumber,
+                connectionTimeout: connectionTimeout,
+                costCenterId: nil,
+                trainingMode: true
+            )
+        })
+        alert.addAction(UIAlertAction(title: "Nein", style: .cancel) { [weak self] _ in
+            self?.presentCostCenterSelectionIfNeeded(
+                authKey: authKey,
+                apiKey: apiKey,
+                machineNumber: machineNumber,
+                connectionTimeout: connectionTimeout,
+                trainingMode: false
+            )
+        })
+        present(alert, animated: true)
+    }
+    
+    /// Check for available cost centers and let the user choose (matches legacy app flow)
+    private func presentCostCenterSelectionIfNeeded(
+        authKey: String,
+        apiKey: String,
+        machineNumber: Int32,
+        connectionTimeout: TimeInterval,
+        trainingMode: Bool
+    ) {
+        VendingSDK.shared.getAvailableCostCenters(authKey: authKey, apiKey: apiKey) { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let costCenters):
+                    guard let self = self else { return }
+                    if costCenters.isEmpty {
+                        self.beginVending(
+                            authKey: authKey,
+                            apiKey: apiKey,
+                            machineNumber: machineNumber,
+                            connectionTimeout: connectionTimeout,
+                            costCenterId: nil,
+                            trainingMode: trainingMode
+                        )
+                    } else {
+                        self.presentCostCenterSelection(
+                            costCenters: costCenters,
+                            authKey: authKey,
+                            apiKey: apiKey,
+                            machineNumber: machineNumber,
+                            connectionTimeout: connectionTimeout,
+                            trainingMode: trainingMode
+                        )
+                    }
+                case .failure(let error):
+                    guard let self = self else { return }
+                    self.resetUI()
+                    self.statusTextView.text = "Failed to load cost centers: \(error.localizedDescription)\n"
+                }
+            }
+        }
+    }
+    
+    /// Show cost center selection action sheet (matches legacy app "Bitte Kostenstelle auswälen")
+    /// "Börse nutzen" (cancel) starts the normal flow charging the user's purse
+    private func presentCostCenterSelection(
+        costCenters: [CostCenter],
+        authKey: String,
+        apiKey: String,
+        machineNumber: Int32,
+        connectionTimeout: TimeInterval,
+        trainingMode: Bool
+    ) {
+        let alert = UIAlertController(
+            title: "Bitte Kostenstelle auswählen",
+            message: nil,
+            preferredStyle: .actionSheet
+        )
+        
+        for costCenter in costCenters {
+            let label = "[\(costCenter.identifier ?? "")] - \(costCenter.name ?? "")"
+            alert.addAction(UIAlertAction(title: label, style: .default) { [weak self] _ in
+                self?.beginVending(
+                    authKey: authKey,
+                    apiKey: apiKey,
+                    machineNumber: machineNumber,
+                    connectionTimeout: connectionTimeout,
+                    costCenterId: costCenter.id,
+                    trainingMode: trainingMode
+                )
+            })
+        }
+        
+        alert.addAction(UIAlertAction(title: "Börse nutzen", style: .cancel) { [weak self] _ in
+            self?.beginVending(
+                authKey: authKey,
+                apiKey: apiKey,
+                machineNumber: machineNumber,
+                connectionTimeout: connectionTimeout,
+                costCenterId: nil,
+                trainingMode: trainingMode
+            )
+        })
+        
+        present(alert, animated: true)
+    }
+    
+    private func beginVending(
+        authKey: String,
+        apiKey: String,
+        machineNumber: Int32,
+        connectionTimeout: TimeInterval,
+        costCenterId: Int64?,
+        trainingMode: Bool
+    ) {
+        statusTextView.text = (statusTextView.text ?? "") + (costCenterId != nil ? "Cost center selected (ID: \(costCenterId!))\n" : "Using purse\n")
+        if trainingMode {
+            statusTextView.text = (statusTextView.text ?? "") + "Training mode active\n"
+        }
+        
+        // Remember session values for the training assignment UI
+        currentAuthKey = authKey
+        currentApiKey = apiKey
+        currentMachineNumber = machineNumber
+        currentVendingBaseData = nil
+        
         // Start vending workflow
         VendingSDK.shared.startVending(
             authKey: authKey,
             apiKey: apiKey,
             vendingMachineNumber: machineNumber,
             connectionTimeout: connectionTimeout,
+            costCenterId: costCenterId,
+            trainingMode: trainingMode,
             statusCallback: { [weak self] status in
                 DispatchQueue.main.async {
                     self?.statusTextView.text = (self?.statusTextView.text ?? "") + status + "\n"
@@ -395,8 +572,41 @@ class LoginViewController: UIViewController {
                     if let transactionUUID = result.transactionUUID {
                         message += "Transaction UUID: \(transactionUUID)\n"
                     }
+                    if let costCenterIdentifier = result.costCenterIdentifier {
+                        let costCenterName = result.costCenterName ?? ""
+                        message += "Cost Center: \(costCenterIdentifier) - \(costCenterName)\n"
+                    }
                     
                     self?.showAlert(title: "Vending Transaction", message: message)
+                }
+            },
+            trainingProductCallback: { [weak self] product in
+                DispatchQueue.main.async {
+                    guard let self = self else { return }
+                    self.statusTextView.text = (self.statusTextView.text ?? "") + "Produkt entnommen - Wahl: \(product.selection), Preis: \(product.amount) Cent\n"
+                    
+                    // Present the article assignment UI (port of legacy VendingArticleTraining)
+                    VendingSDK.shared.reloadVendingBaseData(
+                        authKey: self.currentAuthKey ?? "",
+                        apiKey: self.currentApiKey ?? ""
+                    ) { [weak self] baseDataResult in
+                        DispatchQueue.main.async {
+                            guard let self = self else { return }
+                            let baseData = try? baseDataResult.get()
+                            self.currentVendingBaseData = baseData
+                            
+                            let trainingVC = TrainingArticleViewController(
+                                authKey: self.currentAuthKey ?? "",
+                                apiKey: self.currentApiKey ?? "",
+                                machineNumber: self.currentMachineNumber ?? 0,
+                                product: product,
+                                vendingBaseData: baseData
+                            )
+                            let nav = UINavigationController(rootViewController: trainingVC)
+                            nav.modalPresentationStyle = .pageSheet
+                            self.present(nav, animated: true)
+                        }
+                    }
                 }
             }
         )
@@ -424,6 +634,15 @@ class LoginViewController: UIViewController {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         present(alert, animated: true)
+    }
+    
+    private func resetUI() {
+        startVendingButton.isEnabled = true
+        authKeyTextField.isEnabled = true
+        vendingMachineNumberTextField.isEnabled = true
+        apiKeyTextField.isEnabled = true
+        connectionTimeoutTextField.isEnabled = true
+        abortVendingButton.isEnabled = false
     }
 }
 

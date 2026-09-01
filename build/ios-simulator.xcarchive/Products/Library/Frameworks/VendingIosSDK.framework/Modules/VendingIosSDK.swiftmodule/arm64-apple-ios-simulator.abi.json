@@ -469,13 +469,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -487,6 +480,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1309,13 +1309,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1327,6 +1320,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1537,13 +1537,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1555,6 +1548,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1797,38 +1797,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1839,10 +1811,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1853,10 +1839,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -2111,13 +2111,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2129,6 +2122,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2563,13 +2563,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2581,6 +2574,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3227,13 +3227,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3245,6 +3238,579 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CostCenterObjC",
+        "printedName": "CostCenterObjC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)id",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC2ids5Int64Vvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)id",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC2ids5Int64Vvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locked",
+            "printedName": "locked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)locked",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC6lockedSbvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)locked",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC6lockedSbvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lockReason",
+            "printedName": "lockReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)lockReason",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC10lockReasonSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)lockReason",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC10lockReasonSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)identifier",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC10identifierSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)identifier",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC10identifierSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "company",
+            "printedName": "company",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)company",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC7companySSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)company",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC7companySSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(py)name",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC4nameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)name",
+                "mangledName": "$s13VendingIosSDK14CostCenterObjCC4nameSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:locked:lockReason:identifier:company:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CostCenterObjC",
+                "printedName": "VendingIosSDK.CostCenterObjC",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)initWithId:locked:lockReason:identifier:company:name:",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCC2id6locked10lockReason10identifier7company4nameACs5Int64V_SbSSSgA3Ltcfc",
+            "moduleName": "VendingIosSDK",
+            "objc_name": "initWithId:locked:lockReason:identifier:company:name:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CostCenterObjC",
+                "printedName": "VendingIosSDK.CostCenterObjC",
+                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC(im)init",
+            "mangledName": "$s13VendingIosSDK14CostCenterObjCCACycfc",
+            "moduleName": "VendingIosSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC",
+        "mangledName": "$s13VendingIosSDK14CostCenterObjCC",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -4079,13 +4645,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4097,6 +4656,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4279,13 +4845,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4297,6 +4856,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4675,13 +5241,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4693,6 +5252,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4963,13 +5529,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4981,6 +5540,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5290,6 +5856,66 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "costCenterId",
+            "printedName": "costCenterId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK18PurseExtCardNumberV12costCenterIds5Int64VSgvp",
+            "mangledName": "$s13VendingIosSDK18PurseExtCardNumberV12costCenterIds5Int64VSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK18PurseExtCardNumberV12costCenterIds5Int64VSgvg",
+                "mangledName": "$s13VendingIosSDK18PurseExtCardNumberV12costCenterIds5Int64VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -5359,10 +5985,219 @@
           },
           {
             "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardsWithCostCenter",
+        "printedName": "CardsWithCostCenter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rfidCard",
+            "printedName": "rfidCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.PurseExtCardNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PurseExtCardNumber",
+                    "printedName": "VendingIosSDK.PurseExtCardNumber",
+                    "usr": "s:13VendingIosSDK18PurseExtCardNumberV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK19CardsWithCostCenterV8rfidCardAA08PurseExtI6NumberVSgvp",
+            "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV8rfidCardAA08PurseExtI6NumberVSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VendingIosSDK.PurseExtCardNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PurseExtCardNumber",
+                        "printedName": "VendingIosSDK.PurseExtCardNumber",
+                        "usr": "s:13VendingIosSDK18PurseExtCardNumberV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK19CardsWithCostCenterV8rfidCardAA08PurseExtI6NumberVSgvg",
+                "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV8rfidCardAA08PurseExtI6NumberVSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "costCenter",
+            "printedName": "costCenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.CostCenter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CostCenter",
+                    "printedName": "VendingIosSDK.CostCenter",
+                    "usr": "s:13VendingIosSDK10CostCenterV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK19CardsWithCostCenterV04costG0AA0fG0VSgvp",
+            "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV04costG0AA0fG0VSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VendingIosSDK.CostCenter?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CostCenter",
+                        "printedName": "VendingIosSDK.CostCenter",
+                        "usr": "s:13VendingIosSDK10CostCenterV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK19CardsWithCostCenterV04costG0AA0fG0VSgvg",
+                "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV04costG0AA0fG0VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardsWithCostCenter",
+                "printedName": "VendingIosSDK.CardsWithCostCenter",
+                "usr": "s:13VendingIosSDK19CardsWithCostCenterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VendingIosSDK19CardsWithCostCenterV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK19CardsWithCostCenterV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13VendingIosSDK19CardsWithCostCenterV",
+        "mangledName": "$s13VendingIosSDK19CardsWithCostCenterV",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -5377,6 +6212,245 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PurseCardsWithCostCenter",
+        "printedName": "PurseCardsWithCostCenter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "purse",
+            "printedName": "purse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.Purse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Purse",
+                    "printedName": "VendingIosSDK.Purse",
+                    "usr": "s:13VendingIosSDK5PurseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV5purseAA0D0VSgvp",
+            "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV5purseAA0D0VSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VendingIosSDK.Purse?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Purse",
+                        "printedName": "VendingIosSDK.Purse",
+                        "usr": "s:13VendingIosSDK5PurseV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV5purseAA0D0VSgvg",
+                "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV5purseAA0D0VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cards",
+            "printedName": "cards",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[VendingIosSDK.CardsWithCostCenter]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[VendingIosSDK.CardsWithCostCenter]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardsWithCostCenter",
+                        "printedName": "VendingIosSDK.CardsWithCostCenter",
+                        "usr": "s:13VendingIosSDK19CardsWithCostCenterV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV5cardsSayAA0efgH0VGSgvp",
+            "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV5cardsSayAA0efgH0VGSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[VendingIosSDK.CardsWithCostCenter]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[VendingIosSDK.CardsWithCostCenter]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CardsWithCostCenter",
+                            "printedName": "VendingIosSDK.CardsWithCostCenter",
+                            "usr": "s:13VendingIosSDK19CardsWithCostCenterV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV5cardsSayAA0efgH0VGSgvg",
+                "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV5cardsSayAA0efgH0VGSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PurseCardsWithCostCenter",
+                "printedName": "VendingIosSDK.PurseCardsWithCostCenter",
+                "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13VendingIosSDK24PurseCardsWithCostCenterV",
+        "mangledName": "$s13VendingIosSDK24PurseCardsWithCostCenterV",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5619,6 +6693,66 @@
                 "declKind": "Accessor",
                 "usr": "s:13VendingIosSDK5PurseV10locationIds5Int64VSgvg",
                 "mangledName": "$s13VendingIosSDK5PurseV10locationIds5Int64VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK5PurseV4nameSSSgvp",
+            "mangledName": "$s13VendingIosSDK5PurseV4nameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK5PurseV4nameSSSgvg",
+                "mangledName": "$s13VendingIosSDK5PurseV4nameSSSgvg",
                 "moduleName": "VendingIosSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6055,10 +7189,945 @@
           },
           {
             "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JournalEntry",
+        "printedName": "JournalEntry",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV2ids5Int64VSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV2ids5Int64VSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int64?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV2ids5Int64VSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV2ids5Int64VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userUUID",
+            "printedName": "userUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV8userUUIDSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV8userUUIDSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV8userUUIDSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV8userUUIDSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "purseUUID",
+            "printedName": "purseUUID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV9purseUUIDSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV9purseUUIDSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV9purseUUIDSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV9purseUUIDSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventType",
+            "printedName": "eventType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV9eventTypeSiSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV9eventTypeSiSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV9eventTypeSiSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV9eventTypeSiSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventDate",
+            "printedName": "eventDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV9eventDate10Foundation0G0VSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV9eventDate10Foundation0G0VSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV9eventDate10Foundation0G0VSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV9eventDate10Foundation0G0VSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV5titleSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV5titleSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV5titleSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV5titleSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV7messageSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV7messageSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV7messageSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV7messageSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dB_TableName",
+            "printedName": "dB_TableName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV12dB_TableNameSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV12dB_TableNameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV12dB_TableNameSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV12dB_TableNameSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dB_OldObjectName",
+            "printedName": "dB_OldObjectName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV16dB_OldObjectNameSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV16dB_OldObjectNameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV16dB_OldObjectNameSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV16dB_OldObjectNameSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dB_OldObjectValue",
+            "printedName": "dB_OldObjectValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV17dB_OldObjectValueSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV17dB_OldObjectValueSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV17dB_OldObjectValueSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV17dB_OldObjectValueSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dB_NewObjectName",
+            "printedName": "dB_NewObjectName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV16dB_NewObjectNameSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV16dB_NewObjectNameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV16dB_NewObjectNameSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV16dB_NewObjectNameSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dB_NewObjectValue",
+            "printedName": "dB_NewObjectValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK12JournalEntryV17dB_NewObjectValueSSSgvp",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV17dB_NewObjectValueSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK12JournalEntryV17dB_NewObjectValueSSSgvg",
+                "mangledName": "$s13VendingIosSDK12JournalEntryV17dB_NewObjectValueSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:userUUID:purseUUID:eventType:eventDate:title:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JournalEntry",
+                "printedName": "VendingIosSDK.JournalEntry",
+                "usr": "s:13VendingIosSDK12JournalEntryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VendingIosSDK12JournalEntryV2id8userUUID05purseH09eventType0J4Date5title7messageACs5Int64VSg_SSSgANSiSg10Foundation0L0VSgA2Ntcfc",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV2id8userUUID05purseH09eventType0J4Date5title7messageACs5Int64VSg_SSSgANSiSg10Foundation0L0VSgA2Ntcfc",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JournalEntry",
+                "printedName": "VendingIosSDK.JournalEntry",
+                "usr": "s:13VendingIosSDK12JournalEntryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VendingIosSDK12JournalEntryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK12JournalEntryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13VendingIosSDK12JournalEntryV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VendingIosSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13VendingIosSDK12JournalEntryV",
+        "mangledName": "$s13VendingIosSDK12JournalEntryV",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -6073,6 +8142,629 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JournalEventType",
+        "printedName": "JournalEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "genericEvent",
+            "printedName": "genericEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO07genericE0SivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO07genericE0SivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO07genericE0SivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO07genericE0SivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startTraining",
+            "printedName": "startTraining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO13startTrainingSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO13startTrainingSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO13startTrainingSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO13startTrainingSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finishTraining",
+            "printedName": "finishTraining",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO14finishTrainingSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO14finishTrainingSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO14finishTrainingSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO14finishTrainingSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productSelect",
+            "printedName": "productSelect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO13productSelectSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO13productSelectSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO13productSelectSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO13productSelectSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "articleCreate",
+            "printedName": "articleCreate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO13articleCreateSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO13articleCreateSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO13articleCreateSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO13articleCreateSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "articleAssign",
+            "printedName": "articleAssign",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO13articleAssignSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO13articleAssignSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO13articleAssignSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO13articleAssignSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "overwriteAssignment",
+            "printedName": "overwriteAssignment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK16JournalEventTypeO19overwriteAssignmentSivpZ",
+            "mangledName": "$s13VendingIosSDK16JournalEventTypeO19overwriteAssignmentSivpZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK16JournalEventTypeO19overwriteAssignmentSivgZ",
+                "mangledName": "$s13VendingIosSDK16JournalEventTypeO19overwriteAssignmentSivgZ",
+                "moduleName": "VendingIosSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13VendingIosSDK16JournalEventTypeO",
+        "mangledName": "$s13VendingIosSDK16JournalEventTypeO",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VendingTrainingProduct",
+        "printedName": "VendingTrainingProduct",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selection",
+            "printedName": "selection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK0A15TrainingProductV9selections5Int32Vvp",
+            "mangledName": "$s13VendingIosSDK0A15TrainingProductV9selections5Int32Vvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK0A15TrainingProductV9selections5Int32Vvg",
+                "mangledName": "$s13VendingIosSDK0A15TrainingProductV9selections5Int32Vvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK0A15TrainingProductV6amounts5Int32Vvp",
+            "mangledName": "$s13VendingIosSDK0A15TrainingProductV6amounts5Int32Vvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK0A15TrainingProductV6amounts5Int32Vvg",
+                "mangledName": "$s13VendingIosSDK0A15TrainingProductV6amounts5Int32Vvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fingerprint",
+            "printedName": "fingerprint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK0A15TrainingProductV11fingerprints6UInt32Vvp",
+            "mangledName": "$s13VendingIosSDK0A15TrainingProductV11fingerprints6UInt32Vvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK0A15TrainingProductV11fingerprints6UInt32Vvg",
+                "mangledName": "$s13VendingIosSDK0A15TrainingProductV11fingerprints6UInt32Vvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoading",
+            "printedName": "isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VendingIosSDK0A15TrainingProductV9isLoadingSbvp",
+            "mangledName": "$s13VendingIosSDK0A15TrainingProductV9isLoadingSbvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VendingIosSDK0A15TrainingProductV9isLoadingSbvg",
+                "mangledName": "$s13VendingIosSDK0A15TrainingProductV9isLoadingSbvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(selection:amount:fingerprint:isLoading:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VendingTrainingProduct",
+                "printedName": "VendingIosSDK.VendingTrainingProduct",
+                "usr": "s:13VendingIosSDK0A15TrainingProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VendingIosSDK0A15TrainingProductV9selection6amount11fingerprint9isLoadingACs5Int32V_AIs6UInt32VSbtcfc",
+            "mangledName": "$s13VendingIosSDK0A15TrainingProductV9selection6amount11fingerprint9isLoadingACs5Int32V_AIs6UInt32VSbtcfc",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13VendingIosSDK0A15TrainingProductV",
+        "mangledName": "$s13VendingIosSDK0A15TrainingProductV",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6519,13 +9211,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6537,6 +9222,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7091,13 +9783,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7109,6 +9794,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7582,9 +10274,75 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "costCenter",
+            "printedName": "costCenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.CostCenterObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CostCenterObjC",
+                    "printedName": "VendingIosSDK.CostCenterObjC",
+                    "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSendTransactionResponseObjC(py)costCenter",
+            "mangledName": "$s13VendingIosSDK0A27SendTransactionResponseObjCC10costCenterAA04CostiG1CCSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VendingIosSDK.CostCenterObjC?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CostCenterObjC",
+                        "printedName": "VendingIosSDK.CostCenterObjC",
+                        "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)VendingSendTransactionResponseObjC(im)costCenter",
+                "mangledName": "$s13VendingIosSDK0A27SendTransactionResponseObjCC10costCenterAA04CostiG1CCSgvg",
+                "moduleName": "VendingIosSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(purseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:)",
+            "printedName": "init(purseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:costCenter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7671,13 +10429,27 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.CostCenterObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CostCenterObjC",
+                    "printedName": "VendingIosSDK.CostCenterObjC",
+                    "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSendTransactionResponseObjC(im)initWithPurseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:",
-            "mangledName": "$s13VendingIosSDK0A27SendTransactionResponseObjCC9purseUUID10balanceOld0J3New10totalGross12terminalName05storeP013invoiceNumber011transactionI0ACSS_s5Int64VAMs5Int32VSSSgA3Ptcfc",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSendTransactionResponseObjC(im)initWithPurseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:costCenter:",
+            "mangledName": "$s13VendingIosSDK0A27SendTransactionResponseObjCC9purseUUID10balanceOld0J3New10totalGross12terminalName05storeP013invoiceNumber011transactionI010costCenterACSS_s5Int64VANs5Int32VSSSgA3qA04CostvG1CCSgtcfc",
             "moduleName": "VendingIosSDK",
-            "objc_name": "initWithPurseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:",
+            "objc_name": "initWithPurseUUID:balanceOld:balanceNew:totalGross:terminalName:storeName:invoiceNumber:transactionUUID:costCenter:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -7727,38 +10499,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -7769,10 +10513,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -7783,10 +10541,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -8260,6 +11032,186 @@
           },
           {
             "kind": "Var",
+            "name": "costCenter",
+            "printedName": "costCenter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VendingIosSDK.CostCenterObjC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CostCenterObjC",
+                    "printedName": "VendingIosSDK.CostCenterObjC",
+                    "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(py)costCenter",
+            "mangledName": "$s13VendingIosSDK0A17TransactionResultC10costCenterAA04CostG4ObjCCSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VendingIosSDK.CostCenterObjC?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CostCenterObjC",
+                        "printedName": "VendingIosSDK.CostCenterObjC",
+                        "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(im)costCenter",
+                "mangledName": "$s13VendingIosSDK0A17TransactionResultC10costCenterAA04CostG4ObjCCSgvg",
+                "moduleName": "VendingIosSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "costCenterIdentifier",
+            "printedName": "costCenterIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(py)costCenterIdentifier",
+            "mangledName": "$s13VendingIosSDK0A17TransactionResultC20costCenterIdentifierSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(im)costCenterIdentifier",
+                "mangledName": "$s13VendingIosSDK0A17TransactionResultC20costCenterIdentifierSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "costCenterName",
+            "printedName": "costCenterName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(py)costCenterName",
+            "mangledName": "$s13VendingIosSDK0A17TransactionResultC14costCenterNameSSSgvp",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult(im)costCenterName",
+                "mangledName": "$s13VendingIosSDK0A17TransactionResultC14costCenterNameSSSgvg",
+                "moduleName": "VendingIosSDK",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "articleStruct",
             "printedName": "articleStruct",
             "children": [
@@ -8567,38 +11519,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -8609,10 +11533,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -8623,10 +11561,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -8988,7 +11940,7 @@
           {
             "kind": "Function",
             "name": "startVending",
-            "printedName": "startVending(authKey:apiKey:vendingMachineNumber:connectionTimeout:)",
+            "printedName": "startVending(authKey:apiKey:vendingMachineNumber:connectionTimeout:costCenterId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9019,13 +11971,28 @@
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSDK(im)startVendingWithAuthKey:apiKey:vendingMachineNumber:connectionTimeout:",
-            "mangledName": "$s13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeoutySS_SSs5Int32VSdtF",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSDK(im)startVendingWithAuthKey:apiKey:vendingMachineNumber:connectionTimeout:costCenterId:",
+            "mangledName": "$s13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeout12costCenterIdySS_SSs5Int32VSdSo8NSNumberCSgtF",
             "moduleName": "VendingIosSDK",
-            "objc_name": "startVendingWithAuthKey:apiKey:vendingMachineNumber:connectionTimeout:",
+            "objc_name": "startVendingWithAuthKey:apiKey:vendingMachineNumber:connectionTimeout:costCenterId:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -9036,7 +12003,7 @@
           {
             "kind": "Function",
             "name": "startVending",
-            "printedName": "startVending(authKey:apiKey:vendingMachineNumber:connectionTimeout:statusCallback:transactionCallback:)",
+            "printedName": "startVending(authKey:apiKey:vendingMachineNumber:connectionTimeout:costCenterId:trainingMode:statusCallback:transactionCallback:trainingProductCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9067,6 +12034,28 @@
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int64?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -9103,14 +12092,524 @@
                     "usr": "c:@M@VendingIosSDK@objc(cs)VendingTransactionResult"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((VendingIosSDK.VendingTrainingProduct) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VendingIosSDK.VendingTrainingProduct) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendingTrainingProduct",
+                        "printedName": "VendingIosSDK.VendingTrainingProduct",
+                        "usr": "s:13VendingIosSDK0A15TrainingProductV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeout14statusCallback011transactionN0ySS_SSs5Int32VSdySScyAA0A17TransactionResultCctF",
-            "mangledName": "$s13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeout14statusCallback011transactionN0ySS_SSs5Int32VSdySScyAA0A17TransactionResultCctF",
+            "usr": "s:13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeout12costCenterId12trainingMode14statusCallback011transactionS00p7ProductS0ySS_SSs5Int32VSds5Int64VSgSbySScyAA0A17TransactionResultCcyAA0a8TrainingU0VcSgtF",
+            "mangledName": "$s13VendingIosSDK0aC0C05startA07authKey03apiF020vendingMachineNumber17connectionTimeout12costCenterId12trainingMode14statusCallback011transactionS00p7ProductS0ySS_SSs5Int32VSds5Int64VSgSbySScyAA0A17TransactionResultCcyAA0a8TrainingU0VcSgtF",
             "moduleName": "VendingIosSDK",
             "declAttributes": [
               "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPurseInfo",
+            "printedName": "getPurseInfo(authKey:apiKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<VendingIosSDK.Purse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<VendingIosSDK.Purse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Purse",
+                        "printedName": "VendingIosSDK.Purse",
+                        "usr": "s:13VendingIosSDK5PurseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C12getPurseInfo7authKey03apiH010completionySS_SSys6ResultOyAA0E0Vs5Error_pGctF",
+            "mangledName": "$s13VendingIosSDK0aC0C12getPurseInfo7authKey03apiH010completionySS_SSys6ResultOyAA0E0Vs5Error_pGctF",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isTrainingPurse",
+            "printedName": "isTrainingPurse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Purse",
+                "printedName": "VendingIosSDK.Purse",
+                "usr": "s:13VendingIosSDK5PurseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C15isTrainingPurseySbAA0F0VFZ",
+            "mangledName": "$s13VendingIosSDK0aC0C15isTrainingPurseySbAA0F0VFZ",
+            "moduleName": "VendingIosSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createVendingArticle",
+            "printedName": "createVendingArticle(authKey:apiKey:plu:name:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<VendingIosSDK.VendingArticle, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<VendingIosSDK.VendingArticle, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendingArticle",
+                        "printedName": "VendingIosSDK.VendingArticle",
+                        "usr": "s:13VendingIosSDK0A7ArticleV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C06createA7Article7authKey03apiG03plu4name10completionySS_S3Sys6ResultOyAA0aE0Vs5Error_pGctF",
+            "mangledName": "$s13VendingIosSDK0aC0C06createA7Article7authKey03apiG03plu4name10completionySS_S3Sys6ResultOyAA0aE0Vs5Error_pGctF",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "assignVendingArticle",
+            "printedName": "assignVendingArticle(authKey:apiKey:machineNumber:selection:newArticle:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VendingArticle",
+                "printedName": "VendingIosSDK.VendingArticle",
+                "usr": "s:13VendingIosSDK0A7ArticleV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendingBaseDataResponse",
+                        "printedName": "VendingIosSDK.VendingBaseDataResponse",
+                        "usr": "s:13VendingIosSDK0A16BaseDataResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C06assignA7Article7authKey03apiG013machineNumber9selection03newE010completionySS_SSs5Int32VAlA0aE0Vys6ResultOyAA0A16BaseDataResponseVs5Error_pGctF",
+            "mangledName": "$s13VendingIosSDK0aC0C06assignA7Article7authKey03apiG013machineNumber9selection03newE010completionySS_SSs5Int32VAlA0aE0Vys6ResultOyAA0A16BaseDataResponseVs5Error_pGctF",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadVendingBaseData",
+            "printedName": "reloadVendingBaseData(authKey:apiKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VendingBaseDataResponse",
+                        "printedName": "VendingIosSDK.VendingBaseDataResponse",
+                        "usr": "s:13VendingIosSDK0A16BaseDataResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C06reloadA8BaseData7authKey03apiH010completionySS_SSys6ResultOyAA0aeF8ResponseVs5Error_pGctF",
+            "mangledName": "$s13VendingIosSDK0aC0C06reloadA8BaseData7authKey03apiH010completionySS_SSys6ResultOyAA0aeF8ResponseVs5Error_pGctF",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAvailableCostCenters",
+            "printedName": "getAvailableCostCenters(authKey:apiKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[VendingIosSDK.CostCenter], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[VendingIosSDK.CostCenter], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[VendingIosSDK.CostCenter]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CostCenter",
+                            "printedName": "VendingIosSDK.CostCenter",
+                            "usr": "s:13VendingIosSDK10CostCenterV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VendingIosSDK0aC0C23getAvailableCostCenters7authKey03apiI010completionySS_SSys6ResultOySayAA0F6CenterVGs5Error_pGctF",
+            "mangledName": "$s13VendingIosSDK0aC0C23getAvailableCostCenters7authKey03apiI010completionySS_SSys6ResultOySayAA0F6CenterVGs5Error_pGctF",
+            "moduleName": "VendingIosSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAvailableCostCenters",
+            "printedName": "getAvailableCostCenters(authKey:apiKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([VendingIosSDK.CostCenterObjC]?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([VendingIosSDK.CostCenterObjC]?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[VendingIosSDK.CostCenterObjC]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[VendingIosSDK.CostCenterObjC]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CostCenterObjC",
+                                "printedName": "VendingIosSDK.CostCenterObjC",
+                                "usr": "c:@M@VendingIosSDK@objc(cs)CostCenterObjC"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VendingIosSDK@objc(cs)VendingSDK(im)getAvailableCostCentersWithAuthKey:apiKey:completion:",
+            "mangledName": "$s13VendingIosSDK0aC0C23getAvailableCostCenters7authKey03apiI010completionySS_SSySayAA0F10CenterObjCCGSg_s5Error_pSgtctF",
+            "moduleName": "VendingIosSDK",
+            "objc_name": "getAvailableCostCentersWithAuthKey:apiKey:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -9134,38 +12633,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -9176,10 +12647,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -9190,10 +12675,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -9267,363 +12766,807 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VendingIosSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 5339,
       "length": 14,
       "value": "\"access_token\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 5379,
       "length": 12,
       "value": "\"expires_in\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4431,
+      "offset": 5417,
       "length": 12,
       "value": "\"token_type\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4472,
+      "offset": 5458,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4737,
+      "offset": 5723,
       "length": 19,
       "value": "\"error_description\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 6564,
+      "offset": 7550,
       "length": 12,
       "value": "\"rfid_Cards\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10970,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11011,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11051,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11091,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11131,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11177,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 8964,
+      "offset": 13236,
       "length": 22,
       "value": "\"purseTransactionUUID\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 11,
       "value": "\"mobileapp\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 38,
       "value": "\"14317cd9-4bc3-4cbc-af7a-c767038cd0c0\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/AuthenticationService.swift",
       "kind": "StringLiteral",
       "offset": 438,
       "length": 89,
       "value": "\"openid profile IdentityServerApi offline_access client_api notification_api payment_api\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5413,
+      "offset": 8221,
       "length": 25,
       "value": "\"afe7095e-vendingSDK-IOS\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10978,
+      "offset": 13786,
       "length": 25,
       "value": "\"afe7095e-vendingSDK-IOS\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23850,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23876,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23918,
+      "length": 40,
+      "value": "\"Not authenticated. Please login first.\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24037,
+      "length": 60,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24061,
+      "length": 1,
+      "value": "\"\/crud\/VendingMachineArticleMappings\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24154,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24180,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24222,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24350,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24382,
+      "length": 23,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24404,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24427,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24469,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24509,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24867,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25433,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25459,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25501,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25667,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25693,
+      "length": 2,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25735,
+      "length": 18,
+      "value": "\"No data received\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25853,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25887,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25972,
+      "length": 60,
+      "value": "\"Request failed with status code \""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26031,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26085,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27114,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27140,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27182,
+      "length": 40,
+      "value": "\"Not authenticated. Please login first.\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27301,
+      "length": 74,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27325,
+      "length": 1,
+      "value": "\"\/crud\/VendingMachineArticleMappings\/\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27374,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27432,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27458,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27500,
+      "length": 13,
+      "value": "\"Invalid URL\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27628,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27659,
+      "length": 23,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27681,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27704,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27746,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 27786,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 28821,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28847,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 28889,
+      "length": 18,
+      "value": "\"Invalid response\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29007,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29041,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29075,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 29170,
+      "length": 60,
+      "value": "\"Request failed with status code \""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 29229,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/ClientServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 29283,
+      "length": 18,
+      "value": "\"ClientServiceAPI\""
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2233,
+      "length": 4,
+      "value": "8888"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 2459,
+      "offset": 3057,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
       "kind": "FloatLiteral",
-      "offset": 3900,
+      "offset": 5025,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5096,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 140,
       "length": 6,
       "value": "0x0000"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 6,
       "value": "0xFFFF"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 194,
       "length": 6,
       "value": "0x1D0F"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 4,
       "value": "4129"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 372,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/Crc16Ccitt.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
       "kind": "IntegerLiteral",
       "offset": 142,
       "length": 4,
       "value": "0x00"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
       "kind": "IntegerLiteral",
       "offset": 168,
       "length": 4,
       "value": "0x48"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
       "kind": "IntegerLiteral",
       "offset": 191,
       "length": 4,
       "value": "0x55"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/EvisFrameProtocol.swift",
       "kind": "Array",
       "offset": 653,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 23,
       "value": "\"com.vending.ble.queue\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 17,
       "value": "\"com.vending.ble\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 660,
       "length": 19,
       "value": "\"VendingBLEManager\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 38,
       "value": "\"49535343-fe7d-4ae5-8fa9-9fafd205e455\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 1227,
       "length": 38,
       "value": "\"49535343-1e4d-4bd9-ba61-23c647249616\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
       "offset": 1324,
       "length": 38,
       "value": "\"49535343-8841-43F4-A8D4-ECBE34729BB3\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "Array",
       "offset": 1509,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "Array",
       "offset": 1546,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1759,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1809,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1923,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1872,
+      "offset": 2017,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1911,
+      "offset": 2056,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1955,
+      "offset": 2100,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2022,
+      "offset": 2167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2042,
+      "offset": 2187,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2105,
+      "offset": 2250,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2127,
+      "offset": 2272,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2149,
+      "offset": 2294,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2200,
+      "offset": 2345,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 2617,
+      "offset": 2915,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2651,
+      "offset": 2949,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2847,
+      "offset": 3188,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3271,
+      "offset": 3612,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3317,
+      "offset": 3658,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/myCompanee\/VendingIosSDK\/VendingIosSDK\/StringObfuscator.swift",
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3730,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/VendingBLEManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4896,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/steffenbrauner\/TESSDEV\/CLONE\/myCompanee\/VendingIosSDK\/VendingIosSDK\/StringObfuscator.swift",
       "kind": "Array",
       "offset": 338,
       "length": 102,

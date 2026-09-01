@@ -2,6 +2,7 @@
 
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-13.0+-blue.svg)](https://developer.apple.com/ios/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 iOS SDK for integrating vending machine functionality into your iOS applications. The SDK provides a complete solution for Bluetooth Low Energy (BLE) communication with vending machines, handling authentication, transaction processing, and device management.
 
@@ -37,7 +38,7 @@ Alternatively, add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/mycompanee/vendingSDK-Ios.git", from: "1.0.2")
+    .package(url: "https://github.com/mycompanee/vendingSDK-Ios.git", from: "1.1.0")
 ]
 ```
 
@@ -46,7 +47,7 @@ dependencies: [
 Add to your `Podfile`:
 
 ```ruby
-pod 'VendingIosSDK', '~> 1.0.2'
+pod 'VendingIosSDK', '~> 1.1.0'
 ```
 
 Then run:
@@ -199,6 +200,7 @@ Starts a vending session with the specified machine.
 - `apiKey: String` - API key for third-party API access
 - `vendingMachineNumber: Int32` - Machine number to connect to
 - `connectionTimeout: TimeInterval` - BLE connection timeout in seconds (default: 30.0)
+- `costCenterId: Int64?` - Optional cost center ID to charge the transaction to (default: `nil` = charge the user's purse). See [Cost Centers](#cost-centers).
 
 **Delegate Callbacks:**
 - `vendingSDK(_:didUpdateStatus:)` - Called with status updates
@@ -211,6 +213,92 @@ Aborts the current vending session and disconnects from the BLE device.
 ##### `static getSDKVersion() -> String`
 
 Returns the current SDK version string.
+
+##### `getAvailableCostCenters(authKey:apiKey:completion:)`
+
+Returns the cost centers available to the current purse (empty if none). Call this before `startVending` if your users may have RFID cards with linked cost centers. See [Cost Centers](#cost-centers).
+
+### Cost Centers
+
+If an RFID card linked to the user's purse has a cost center assigned, transactions can be charged to that cost center instead of the user's purse. The flow:
+
+1. Call `getAvailableCostCenters(authKey:apiKey:)` before starting a session
+2. If cost centers are returned, let the user choose one (or offer to use the purse instead)
+3. Pass the selected `costCenter.id` to `startVending(..., costCenterId:)`
+
+When a cost center is used, the SDK sends a fixed dummy balance to the vending machine via BLE so the sale is released; the actual charge is booked server-side on the cost center. The transaction result contains the booked cost center via `result.costCenterIdentifier` / `result.costCenterName`.
+
+```swift
+VendingSDK.shared.getAvailableCostCenters(authKey: authKey, apiKey: apiKey) { result in
+    switch result {
+    case .success(let costCenters):
+        if costCenters.isEmpty {
+            // No cost centers - start normally with the purse
+            VendingSDK.shared.startVending(authKey: authKey, apiKey: apiKey,
+                                          vendingMachineNumber: 123, costCenterId: nil, /* ... */)
+        } else {
+            // Let the user pick a cost center, then:
+            // VendingSDK.shared.startVending(..., costCenterId: costCenters[0].id, ...)
+        }
+    case .failure(let error):
+        print("Failed to load cost centers: \(error.localizedDescription)")
+    }
+}
+```
+
+### Training Mode
+
+The training mode is a maintenance mode for service technicians: no real transactions are booked. Instead, every product dispensed at the machine is reported to the app, which can then assign an article to the selected slot (selection).
+
+**Trigger:** The mode is enabled when the purse is named `TRAININGMODE`. The SDK exposes this check; the host app asks the user how to proceed:
+
+```swift
+VendingSDK.shared.getPurseInfo(authKey: authKey, apiKey: apiKey) { result in
+    if case .success(let purse) = result, VendingSDK.isTrainingPurse(purse) {
+        // Ask the user: "Im Trainingsmodus starten?" (training) or normal vending
+    }
+}
+```
+
+**Start with the `trainingMode` parameter (Swift closure API only):**
+
+```swift
+VendingSDK.shared.startVending(
+    authKey: authKey, apiKey: apiKey,
+    vendingMachineNumber: 123,
+    trainingMode: true,
+    statusCallback: { status in print(status) },
+    transactionCallback: { _ in },                 // not called in training mode
+    trainingProductCallback: { product in
+        // product.selection, product.amount (cents), product.fingerprint, product.isLoading
+        // Show your article assignment UI here
+    }
+)
+```
+
+**Behavior in training mode:**
+- A fixed dummy balance of 9999 cents is sent to the machine (takes precedence over cost centers)
+- Sales are acknowledged differently (0x0c), no local balance is deducted
+- The idle timeout is disabled — the connection stays open for unlimited consecutive assignments
+- After each dispense the app data is re-armed after 2 seconds, so the next dispense works without reconnecting
+- No `SendVendingTransaction` is sent; journal entries (START/PRODUCT_SELECT/FINISH) are written via `POST /crud/JournalEntries` instead, also on `abortVending()` or connection loss
+
+**Article assignment APIs:**
+
+```swift
+// Create a new article (duplicate PLUs are rejected, journal ARTICLE_CREATE)
+VendingSDK.shared.createVendingArticle(authKey: authKey, apiKey: apiKey, plu: "123", name: "Coffee") { result in }
+
+// Assign an article to a machine selection (POST or PUT mapping, journal ASSIGN/OVERWRITE)
+// Returns the refreshed vending base data
+VendingSDK.shared.assignVendingArticle(authKey: authKey, apiKey: apiKey, machineNumber: 123,
+                                       selection: 5, newArticle: article) { result in }
+
+// Reload machines/articles/mappings after changes
+VendingSDK.shared.reloadVendingBaseData(authKey: authKey, apiKey: apiKey) { result in }
+```
+
+See the sample app's `TrainingArticleViewController` for a complete assignment UI (filter, article creation via `[PLU]:[Name]`, assignment confirmation).
 
 ### VendingSDKDelegate
 
@@ -234,6 +322,9 @@ Result object containing transaction information.
 - `terminalName: String?` - Terminal name from transaction (convenience property)
 - `storeName: String?` - Store name from transaction (convenience property)
 - `transactionUUID: String?` - Transaction UUID from transaction (convenience property)
+- `costCenter: CostCenterObjC?` - Booked cost center, if the transaction was charged to one (convenience property)
+- `costCenterIdentifier: String?` - Cost center identifier (convenience property)
+- `costCenterName: String?` - Cost center name (convenience property)
 
 ## Status Messages
 

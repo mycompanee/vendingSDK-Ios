@@ -7,5 +7,4 @@ framework module VendingIosSDK {
 
 module VendingIosSDK.Swift {
   header "VendingIosSDK-Swift.h"
-  requires objc
 }
