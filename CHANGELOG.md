@@ -95,6 +95,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2026-10-27
+
+### Fixed
+- **"Loading vending data" no longer blocks on `GetLocationsWithPurse`** (fixed an extreme slowdown on large tenants, e.g. tenant 2035)
+  - The SDK previously called the parameterless `GET /MobileApplication/GetLocationsWithPurse` on every session start, which returns **every purse of the tenant** (4,300+ purses on tenant 2035, serialized via an N+1 per-purse location query) — while the result was **never used** by the SDK at all
+  - The call has been removed entirely; the vending base data (`GetVendingBaseData`) is the only request in this step now, and the purse continues to be resolved via the third-party API. The legacy app was never affected because it only queries the user's own purses (`GetLocationsWithPurse/{userId}`, indexed)
+  - Removed the unused private `getLocationsWithPurse` helper (`ClientServiceAPI.getLocationsWithPurse` remains available for future use)
+- **Price override rules from the backend (`VendingMachinePriceMappings`) are now applied** (fixes a parity gap to the legacy app and the backend OnlineVendingService)
+  - Previously the machine-reported sale price was forwarded to `SendVendingTransaction` unchanged; the backend books the client-reported amount 1:1, so configured per-user-group / sub-user-group / price-list overrides (e.g. subsidized prices) were silently ignored and users were overcharged
+  - The resolved article mapping (including the standard-article fallback on selection -1) is now the base for the price override lookup, exactly like the legacy `Ble_SaleComplete`
+  - Match rules (last one wins): user group only, sub user group only, price list only, user group + sub user group, user group + sub user group + price list
+  - Sales only: loading events (negative amounts) are never overridden; negative override prices are passed through and booked as a credit, matching the legacy behavior
+  - When an override changes the price, a status update `Price override applied: <machine> -> <override> cents` is emitted
+  - The overridden amount is used for the backend transaction and reported in `VendingTransactionResult.amount`
+
+### Added
+- `Purse` model extended with `subUserGroupId` (decoded from `subUserGroupId`, provided by `GetPurseByUUID`; required for the sub-user-group price override rules)
+
+### Changed
+- **Minimum deployment target raised from iOS 13.0 to iOS 15.0** (Xcode 27 no longer supports deployment targets below iOS 15.0; updated in the Xcode project, `Package.swift`, the podspec and the docs)
+- Updated SDK version to 1.2.0
+- Podspec `spec.version` synchronized with the SDK version (was still at 1.0.0)
+
+---
+
 ## [Unreleased]
 
 ### Planned

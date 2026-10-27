@@ -1,7 +1,7 @@
 # VendingIosSDK
 
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
-[![iOS](https://img.shields.io/badge/iOS-13.0+-blue.svg)](https://developer.apple.com/ios/)
+[![iOS](https://img.shields.io/badge/iOS-15.0+-blue.svg)](https://developer.apple.com/ios/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 iOS SDK for integrating vending machine functionality into your iOS applications. The SDK provides a complete solution for Bluetooth Low Energy (BLE) communication with vending machines, handling authentication, transaction processing, and device management.
@@ -13,11 +13,11 @@ iOS SDK for integrating vending machine functionality into your iOS applications
 - 💳 **Transaction Processing**: Complete transaction lifecycle management
 - 🎯 **Simple API**: Easy-to-use delegate-based and closure-based APIs
 - 🔄 **Objective-C Compatible**: Full Objective-C interoperability
-- 📱 **iOS 13+ Support**: Compatible with iOS 13.0 and later
+- 📱 **iOS 15+ Support**: Compatible with iOS 15.0 and later
 
 ## Requirements
 
-- iOS 13.0 or later
+- iOS 15.0 or later
 - Xcode 14.0 or later
 - Swift 5.0 or later
 - Bluetooth Low Energy capable device
@@ -38,7 +38,7 @@ Alternatively, add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/mycompanee/vendingSDK-Ios.git", from: "1.1.0")
+    .package(url: "https://github.com/mycompanee/vendingSDK-Ios.git", from: "1.2.0")
 ]
 ```
 
@@ -47,7 +47,7 @@ dependencies: [
 Add to your `Podfile`:
 
 ```ruby
-pod 'VendingIosSDK', '~> 1.1.0'
+pod 'VendingIosSDK', '~> 1.2.0'
 ```
 
 Then run:

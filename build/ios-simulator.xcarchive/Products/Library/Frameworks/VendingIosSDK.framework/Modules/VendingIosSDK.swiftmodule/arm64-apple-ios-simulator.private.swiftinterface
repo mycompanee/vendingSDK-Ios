@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VendingIosSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name VendingIosSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import CommonCrypto
 import CoreBluetooth
 import Foundation
@@ -12,287 +12,288 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-public struct VendingBaseDataResponse : Swift.Codable {
-  public let vendingMachines: [VendingIosSDK.VendingMachine]?
-  public let vendingArticles: [VendingIosSDK.VendingArticle]?
-  public let vendingMachineArticleMappings: [VendingIosSDK.VendingMachineArticleMapping]?
-  public let vendingMachinePriceMappings: [VendingIosSDK.VendingMachinePriceMapping]?
-  public let costCenters: [VendingIosSDK.CostCenter]?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingBaseDataResponse : Swift::Codable {
+  public let vendingMachines: [VendingIosSDK::VendingMachine]?
+  public let vendingArticles: [VendingIosSDK::VendingArticle]?
+  public let vendingMachineArticleMappings: [VendingIosSDK::VendingMachineArticleMapping]?
+  public let vendingMachinePriceMappings: [VendingIosSDK::VendingMachinePriceMapping]?
+  public let costCenters: [VendingIosSDK::CostCenter]?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct VendingMachine : Swift.Codable {
-  public let id: Swift.Int64
-  public let locationId: Swift.Int64
-  public let machineNumber: Swift.Int32
-  public let invoiceCounter: Swift.Int64
-  public let evisBleIdentifier: Swift.String
-  public let bleMacAddress: Swift.String?
-  public let evisCommunicationKeyHexString: Swift.String
-  public let machineName: Swift.String?
-  public let building: Swift.String?
-  public let forceVendingSaldo: Swift.Int32?
-  public let connectionIdleTimeout: Swift.Int32?
-  public let evisSerial: Swift.Int64?
-  public let externalMachineNumber: Swift.Int64?
-  public let vendingExportTargetId: Swift.Int64?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingMachine : Swift::Codable {
+  public let id: Swift::Int64
+  public let locationId: Swift::Int64
+  public let machineNumber: Swift::Int32
+  public let invoiceCounter: Swift::Int64
+  public let evisBleIdentifier: Swift::String
+  public let bleMacAddress: Swift::String?
+  public let evisCommunicationKeyHexString: Swift::String
+  public let machineName: Swift::String?
+  public let building: Swift::String?
+  public let forceVendingSaldo: Swift::Int32?
+  public let connectionIdleTimeout: Swift::Int32?
+  public let evisSerial: Swift::Int64?
+  public let externalMachineNumber: Swift::Int64?
+  public let vendingExportTargetId: Swift::Int64?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct VendingArticle : Swift.Codable {
-  public let id: Swift.Int64
-  public let plu: Swift.String
-  public let name: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingArticle : Swift::Codable {
+  public let id: Swift::Int64
+  public let plu: Swift::String
+  public let name: Swift::String
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-@objc public class VendingArticleObjC : ObjectiveC.NSObject {
-  @objc final public let id: Swift.Int64
-  @objc final public let plu: Swift.String
-  @objc final public let name: Swift.String
-  @objc public init(id: Swift.Int64, plu: Swift.String, name: Swift.String)
+@objc public class VendingArticleObjC : ObjectiveC::NSObject {
+  @objc final public let id: Swift::Int64
+  @objc final public let plu: Swift::String
+  @objc final public let name: Swift::String
+  @objc public init(id: Swift::Int64, plu: Swift::String, name: Swift::String)
   @objc deinit
 }
-public struct VendingMachineArticleMapping : Swift.Codable {
-  public let id: Swift.Int64
-  public let vendingMachineId: Swift.Int64
-  public let selection: Swift.Int32
-  public let vendingArticleId: Swift.Int64
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingMachineArticleMapping : Swift::Codable {
+  public let id: Swift::Int64
+  public let vendingMachineId: Swift::Int64
+  public let selection: Swift::Int32
+  public let vendingArticleId: Swift::Int64
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct VendingMachinePriceMapping : Swift.Codable {
-  public let id: Swift.Int64
-  public let vendingMachineId: Swift.Int64
-  public let vendingArticleId: Swift.Int64
-  public let userGroupId: Swift.Int64?
-  public let subuserGroupId: Swift.Int64?
-  public let priceListId: Swift.Int64?
-  public let articlePrice: Swift.Int32
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingMachinePriceMapping : Swift::Codable {
+  public let id: Swift::Int64
+  public let vendingMachineId: Swift::Int64
+  public let vendingArticleId: Swift::Int64
+  public let userGroupId: Swift::Int64?
+  public let subuserGroupId: Swift::Int64?
+  public let priceListId: Swift::Int64?
+  public let articlePrice: Swift::Int32
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct CostCenter : Swift.Codable {
-  public let id: Swift.Int64
-  public let locked: Swift.Bool
-  public let lockReason: Swift.String?
-  public let identifier: Swift.String?
-  public let company: Swift.String?
-  public let name: Swift.String?
-  public let street: Swift.String?
-  public let postCode: Swift.String?
-  public let city: Swift.String?
-  public let email: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct CostCenter : Swift::Codable {
+  public let id: Swift::Int64
+  public let locked: Swift::Bool
+  public let lockReason: Swift::String?
+  public let identifier: Swift::String?
+  public let company: Swift::String?
+  public let name: Swift::String?
+  public let street: Swift::String?
+  public let postCode: Swift::String?
+  public let city: Swift::String?
+  public let email: Swift::String?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-@objc public class CostCenterObjC : ObjectiveC.NSObject {
-  @objc final public let id: Swift.Int64
-  @objc final public let locked: Swift.Bool
-  @objc final public let lockReason: Swift.String?
-  @objc final public let identifier: Swift.String?
-  @objc final public let company: Swift.String?
-  @objc final public let name: Swift.String?
-  @objc public init(id: Swift.Int64, locked: Swift.Bool, lockReason: Swift.String?, identifier: Swift.String?, company: Swift.String?, name: Swift.String?)
+@objc public class CostCenterObjC : ObjectiveC::NSObject {
+  @objc final public let id: Swift::Int64
+  @objc final public let locked: Swift::Bool
+  @objc final public let lockReason: Swift::String?
+  @objc final public let identifier: Swift::String?
+  @objc final public let company: Swift::String?
+  @objc final public let name: Swift::String?
+  @objc public init(id: Swift::Int64, locked: Swift::Bool, lockReason: Swift::String?, identifier: Swift::String?, company: Swift::String?, name: Swift::String?)
   @objc deinit
 }
-public struct Location : Swift.Codable {
-  public let id: Swift.Int64
-  public let uuid: Swift.String
-  public let currencyId: Swift.Int64
-  public let createdAt: Swift.String
-  public let name: Swift.String
-  public let description: Swift.String?
-  public let allowLoading: Swift.Bool
-  public let allowedLoadingValues: Swift.String?
-  public let maxLoadingValue: Swift.Int64
-  public let appLayoutId: Swift.Int64
-  public let webLayoutId: Swift.Int64
-  public let managerEmail: Swift.String?
-  public let managerFirstName: Swift.String?
-  public let managerLastName: Swift.String?
-  public let managerPhone: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct Location : Swift::Codable {
+  public let id: Swift::Int64
+  public let uuid: Swift::String
+  public let currencyId: Swift::Int64
+  public let createdAt: Swift::String
+  public let name: Swift::String
+  public let description: Swift::String?
+  public let allowLoading: Swift::Bool
+  public let allowedLoadingValues: Swift::String?
+  public let maxLoadingValue: Swift::Int64
+  public let appLayoutId: Swift::Int64
+  public let webLayoutId: Swift::Int64
+  public let managerEmail: Swift::String?
+  public let managerFirstName: Swift::String?
+  public let managerLastName: Swift::String?
+  public let managerPhone: Swift::String?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct GetLocationsWithPurseReponse : Swift.Codable {
-  public let location: VendingIosSDK.Location
-  public let purse: VendingIosSDK.Purse?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct GetLocationsWithPurseReponse : Swift::Codable {
+  public let location: VendingIosSDK::Location
+  public let purse: VendingIosSDK::Purse?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct ThirdPartyPurseResponse : Swift.Codable {
-  public let auth: VendingIosSDK.ThirdPartyAuth?
-  public let newAccessToken: Swift.String?
-  public let purse: VendingIosSDK.Purse
-  public let location: VendingIosSDK.Location?
-  public let rfid_Cards: [VendingIosSDK.PurseExtCardNumber]?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct ThirdPartyPurseResponse : Swift::Codable {
+  public let auth: VendingIosSDK::ThirdPartyAuth?
+  public let newAccessToken: Swift::String?
+  public let purse: VendingIosSDK::Purse
+  public let location: VendingIosSDK::Location?
+  public let rfid_Cards: [VendingIosSDK::PurseExtCardNumber]?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct ThirdPartyAuth : Swift.Codable {
-  public let userId: Swift.String
-  public let tenantId: Swift.Int32
-  public let tokenExpiration: Swift.String
-  public let requestDuration: Swift.String?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct ThirdPartyAuth : Swift::Codable {
+  public let userId: Swift::String
+  public let tenantId: Swift::Int32
+  public let tokenExpiration: Swift::String
+  public let requestDuration: Swift::String?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct PurseExtCardNumber : Swift.Codable {
-  public let id: Swift.Int64?
-  public let purseId: Swift.Int64?
-  public let locationId: Swift.Int64?
-  public let cardNumber: Swift.String?
-  public let description: Swift.String?
-  public let costCenterId: Swift.Int64?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct PurseExtCardNumber : Swift::Codable {
+  public let id: Swift::Int64?
+  public let purseId: Swift::Int64?
+  public let locationId: Swift::Int64?
+  public let cardNumber: Swift::String?
+  public let description: Swift::String?
+  public let costCenterId: Swift::Int64?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct CardsWithCostCenter : Swift.Codable {
-  public let rfidCard: VendingIosSDK.PurseExtCardNumber?
-  public let costCenter: VendingIosSDK.CostCenter?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct CardsWithCostCenter : Swift::Codable {
+  public let rfidCard: VendingIosSDK::PurseExtCardNumber?
+  public let costCenter: VendingIosSDK::CostCenter?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct PurseCardsWithCostCenter : Swift.Codable {
-  public let purse: VendingIosSDK.Purse?
-  public let cards: [VendingIosSDK.CardsWithCostCenter]?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct PurseCardsWithCostCenter : Swift::Codable {
+  public let purse: VendingIosSDK::Purse?
+  public let cards: [VendingIosSDK::CardsWithCostCenter]?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct Purse : Swift.Codable {
-  public let id: Swift.Int64?
-  public let uuid: Swift.String?
-  public let userId: Swift.String?
-  public let locationId: Swift.Int64?
-  public let name: Swift.String?
-  public let balance: Swift.Int64?
-  public let currencyId: Swift.Int64?
-  public let creditLimit: Swift.Int64?
-  public let userGroupId: Swift.Int64?
-  public let priceListId: Swift.Int64?
-  public let transCounter: Swift.Int32?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct Purse : Swift::Codable {
+  public let id: Swift::Int64?
+  public let uuid: Swift::String?
+  public let userId: Swift::String?
+  public let locationId: Swift::Int64?
+  public let name: Swift::String?
+  public let balance: Swift::Int64?
+  public let currencyId: Swift::Int64?
+  public let creditLimit: Swift::Int64?
+  public let userGroupId: Swift::Int64?
+  public let subUserGroupId: Swift::Int64?
+  public let priceListId: Swift::Int64?
+  public let transCounter: Swift::Int32?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct JournalEntry : Swift.Codable {
-  public let id: Swift.Int64?
-  public let userUUID: Swift.String?
-  public let purseUUID: Swift.String?
-  public let eventType: Swift.Int?
-  public let eventDate: Foundation.Date?
-  public let title: Swift.String?
-  public let message: Swift.String?
-  public let dB_TableName: Swift.String?
-  public let dB_OldObjectName: Swift.String?
-  public let dB_OldObjectValue: Swift.String?
-  public let dB_NewObjectName: Swift.String?
-  public let dB_NewObjectValue: Swift.String?
-  public init(id: Swift.Int64? = nil, userUUID: Swift.String? = nil, purseUUID: Swift.String? = nil, eventType: Swift.Int? = nil, eventDate: Foundation.Date? = nil, title: Swift.String? = nil, message: Swift.String? = nil)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct JournalEntry : Swift::Codable {
+  public let id: Swift::Int64?
+  public let userUUID: Swift::String?
+  public let purseUUID: Swift::String?
+  public let eventType: Swift::Int?
+  public let eventDate: Foundation::Date?
+  public let title: Swift::String?
+  public let message: Swift::String?
+  public let dB_TableName: Swift::String?
+  public let dB_OldObjectName: Swift::String?
+  public let dB_OldObjectValue: Swift::String?
+  public let dB_NewObjectName: Swift::String?
+  public let dB_NewObjectValue: Swift::String?
+  public init(id: Swift::Int64? = nil, userUUID: Swift::String? = nil, purseUUID: Swift::String? = nil, eventType: Swift::Int? = nil, eventDate: Foundation::Date? = nil, title: Swift::String? = nil, message: Swift::String? = nil)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public enum JournalEventType {
-  public static let genericEvent: Swift.Int
-  public static let startTraining: Swift.Int
-  public static let finishTraining: Swift.Int
-  public static let productSelect: Swift.Int
-  public static let articleCreate: Swift.Int
-  public static let articleAssign: Swift.Int
-  public static let overwriteAssignment: Swift.Int
+  public static let genericEvent: Swift::Int
+  public static let startTraining: Swift::Int
+  public static let finishTraining: Swift::Int
+  public static let productSelect: Swift::Int
+  public static let articleCreate: Swift::Int
+  public static let articleAssign: Swift::Int
+  public static let overwriteAssignment: Swift::Int
 }
 public struct VendingTrainingProduct {
-  public let selection: Swift.Int32
-  public let amount: Swift.Int32
-  public let fingerprint: Swift.UInt32
-  public let isLoading: Swift.Bool
-  public init(selection: Swift.Int32, amount: Swift.Int32, fingerprint: Swift.UInt32, isLoading: Swift.Bool)
+  public let selection: Swift::Int32
+  public let amount: Swift::Int32
+  public let fingerprint: Swift::UInt32
+  public let isLoading: Swift::Bool
+  public init(selection: Swift::Int32, amount: Swift::Int32, fingerprint: Swift::UInt32, isLoading: Swift::Bool)
 }
-public struct VendingSendTransactionRequest : Swift.Codable {
-  public let purseUUID: Swift.String
-  public let machineNumber: Swift.Int32
-  public let selection: Swift.Int32
-  public let amount: Swift.Int32
-  public let article: VendingIosSDK.VendingArticle
-  public let machine: VendingIosSDK.VendingMachine
-  public let source: Swift.String
-  public let costCenterId: Swift.Int64?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingSendTransactionRequest : Swift::Codable {
+  public let purseUUID: Swift::String
+  public let machineNumber: Swift::Int32
+  public let selection: Swift::Int32
+  public let amount: Swift::Int32
+  public let article: VendingIosSDK::VendingArticle
+  public let machine: VendingIosSDK::VendingMachine
+  public let source: Swift::String
+  public let costCenterId: Swift::Int64?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public struct VendingSendTransactionResponse : Swift.Codable {
-  public let purseUUID: Swift.String
-  public let balanceOld: Swift.Int64
-  public let balanceNew: Swift.Int64
-  public let totalGross: Swift.Int32
-  public let terminalName: Swift.String?
-  public let storeName: Swift.String?
-  public let invoiceNumber: Swift.String?
-  public let transactionUUID: Swift.String?
-  public let costCenter: VendingIosSDK.CostCenter?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct VendingSendTransactionResponse : Swift::Codable {
+  public let purseUUID: Swift::String
+  public let balanceOld: Swift::Int64
+  public let balanceNew: Swift::Int64
+  public let totalGross: Swift::Int32
+  public let terminalName: Swift::String?
+  public let storeName: Swift::String?
+  public let invoiceNumber: Swift::String?
+  public let transactionUUID: Swift::String?
+  public let costCenter: VendingIosSDK::CostCenter?
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-@objc public class VendingSendTransactionResponseObjC : ObjectiveC.NSObject {
-  @objc final public let purseUUID: Swift.String
-  @objc final public let balanceOld: Swift.Int64
-  @objc final public let balanceNew: Swift.Int64
-  @objc final public let totalGross: Swift.Int32
-  @objc final public let terminalName: Swift.String?
-  @objc final public let storeName: Swift.String?
-  @objc final public let invoiceNumber: Swift.String?
-  @objc final public let transactionUUID: Swift.String?
-  @objc final public let costCenter: VendingIosSDK.CostCenterObjC?
-  @objc public init(purseUUID: Swift.String, balanceOld: Swift.Int64, balanceNew: Swift.Int64, totalGross: Swift.Int32, terminalName: Swift.String?, storeName: Swift.String?, invoiceNumber: Swift.String?, transactionUUID: Swift.String?, costCenter: VendingIosSDK.CostCenterObjC?)
+@objc public class VendingSendTransactionResponseObjC : ObjectiveC::NSObject {
+  @objc final public let purseUUID: Swift::String
+  @objc final public let balanceOld: Swift::Int64
+  @objc final public let balanceNew: Swift::Int64
+  @objc final public let totalGross: Swift::Int32
+  @objc final public let terminalName: Swift::String?
+  @objc final public let storeName: Swift::String?
+  @objc final public let invoiceNumber: Swift::String?
+  @objc final public let transactionUUID: Swift::String?
+  @objc final public let costCenter: VendingIosSDK::CostCenterObjC?
+  @objc public init(purseUUID: Swift::String, balanceOld: Swift::Int64, balanceNew: Swift::Int64, totalGross: Swift::Int32, terminalName: Swift::String?, storeName: Swift::String?, invoiceNumber: Swift::String?, transactionUUID: Swift::String?, costCenter: VendingIosSDK::CostCenterObjC?)
   @objc deinit
 }
-@objc public class VendingTransactionResult : ObjectiveC.NSObject {
-  @objc final public let selection: Swift.Int32
-  @objc final public let amount: Swift.Int32
-  @objc final public let fingerprint: Swift.UInt32
-  @objc final public let article: VendingIosSDK.VendingArticleObjC?
-  @objc final public let transactionResponse: VendingIosSDK.VendingSendTransactionResponseObjC?
-  @objc public var terminalName: Swift.String? {
+@objc public class VendingTransactionResult : ObjectiveC::NSObject {
+  @objc final public let selection: Swift::Int32
+  @objc final public let amount: Swift::Int32
+  @objc final public let fingerprint: Swift::UInt32
+  @objc final public let article: VendingIosSDK::VendingArticleObjC?
+  @objc final public let transactionResponse: VendingIosSDK::VendingSendTransactionResponseObjC?
+  @objc public var terminalName: Swift::String? {
     @objc get
   }
-  @objc public var storeName: Swift.String? {
+  @objc public var storeName: Swift::String? {
     @objc get
   }
-  @objc public var transactionUUID: Swift.String? {
+  @objc public var transactionUUID: Swift::String? {
     @objc get
   }
-  @objc public var costCenter: VendingIosSDK.CostCenterObjC? {
+  @objc public var costCenter: VendingIosSDK::CostCenterObjC? {
     @objc get
   }
-  @objc public var costCenterIdentifier: Swift.String? {
+  @objc public var costCenterIdentifier: Swift::String? {
     @objc get
   }
-  @objc public var costCenterName: Swift.String? {
+  @objc public var costCenterName: Swift::String? {
     @objc get
   }
-  final public let articleStruct: VendingIosSDK.VendingArticle?
-  final public let transactionResponseStruct: VendingIosSDK.VendingSendTransactionResponse?
-  @objc public init(selection: Swift.Int32, amount: Swift.Int32, fingerprint: Swift.UInt32, article: VendingIosSDK.VendingArticleObjC?, transactionResponse: VendingIosSDK.VendingSendTransactionResponseObjC?)
-  public init(selection: Swift.Int32, amount: Swift.Int32, fingerprint: Swift.UInt32, articleStruct: VendingIosSDK.VendingArticle?, transactionResponseStruct: VendingIosSDK.VendingSendTransactionResponse?)
+  final public let articleStruct: VendingIosSDK::VendingArticle?
+  final public let transactionResponseStruct: VendingIosSDK::VendingSendTransactionResponse?
+  @objc public init(selection: Swift::Int32, amount: Swift::Int32, fingerprint: Swift::UInt32, article: VendingIosSDK::VendingArticleObjC?, transactionResponse: VendingIosSDK::VendingSendTransactionResponseObjC?)
+  public init(selection: Swift::Int32, amount: Swift::Int32, fingerprint: Swift::UInt32, articleStruct: VendingIosSDK::VendingArticle?, transactionResponseStruct: VendingIosSDK::VendingSendTransactionResponse?)
   @objc deinit
 }
-@objc public protocol VendingSDKDelegate : ObjectiveC.NSObjectProtocol {
-  @objc func vendingSDK(_ sdk: VendingIosSDK.VendingSDK, didUpdateStatus status: Swift.String)
-  @objc func vendingSDK(_ sdk: VendingIosSDK.VendingSDK, didCompleteTransaction result: VendingIosSDK.VendingTransactionResult)
+@objc public protocol VendingSDKDelegate : ObjectiveC::NSObjectProtocol {
+  @objc func vendingSDK(_ sdk: VendingIosSDK::VendingSDK, didUpdateStatus status: Swift::String)
+  @objc func vendingSDK(_ sdk: VendingIosSDK::VendingSDK, didCompleteTransaction result: VendingIosSDK::VendingTransactionResult)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VendingSDK : ObjectiveC.NSObject {
-  @objc public static let shared: VendingIosSDK.VendingSDK
-  @objc weak public var delegate: (any VendingIosSDK.VendingSDKDelegate)?
-  @objc public static func getSDKVersion() -> Swift.String
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VendingSDK : ObjectiveC::NSObject {
+  @objc public static let shared: VendingIosSDK::VendingSDK
+  @objc weak public var delegate: (any VendingIosSDK::VendingSDKDelegate)?
+  @objc public static func getSDKVersion() -> Swift::String
   @objc public func abortVending()
-  @objc public func startVending(authKey: Swift.String, apiKey: Swift.String, vendingMachineNumber: Swift.Int32, connectionTimeout: Foundation.TimeInterval = 30.0, costCenterId: Foundation.NSNumber? = nil)
-  public func startVending(authKey: Swift.String, apiKey: Swift.String, vendingMachineNumber: Swift.Int32, connectionTimeout: Foundation.TimeInterval = 30.0, costCenterId: Swift.Int64? = nil, trainingMode: Swift.Bool = false, statusCallback: @escaping (Swift.String) -> Swift.Void, transactionCallback: @escaping (VendingIosSDK.VendingTransactionResult) -> Swift.Void, trainingProductCallback: ((VendingIosSDK.VendingTrainingProduct) -> Swift.Void)? = nil)
-  public func getPurseInfo(authKey: Swift.String, apiKey: Swift.String, completion: @escaping (Swift.Result<VendingIosSDK.Purse, any Swift.Error>) -> Swift.Void)
-  public static func isTrainingPurse(_ purse: VendingIosSDK.Purse) -> Swift.Bool
-  public func createVendingArticle(authKey: Swift.String, apiKey: Swift.String, plu: Swift.String, name: Swift.String, completion: @escaping (Swift.Result<VendingIosSDK.VendingArticle, any Swift.Error>) -> Swift.Void)
-  public func assignVendingArticle(authKey: Swift.String, apiKey: Swift.String, machineNumber: Swift.Int32, selection: Swift.Int32, newArticle: VendingIosSDK.VendingArticle, completion: @escaping (Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>) -> Swift.Void)
-  public func reloadVendingBaseData(authKey: Swift.String, apiKey: Swift.String, completion: @escaping (Swift.Result<VendingIosSDK.VendingBaseDataResponse, any Swift.Error>) -> Swift.Void)
-  public func getAvailableCostCenters(authKey: Swift.String, apiKey: Swift.String, completion: @escaping (Swift.Result<[VendingIosSDK.CostCenter], any Swift.Error>) -> Swift.Void)
-  @objc public func getAvailableCostCenters(authKey: Swift.String, apiKey: Swift.String, completion: @escaping ([VendingIosSDK.CostCenterObjC]?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func startVending(authKey: Swift::String, apiKey: Swift::String, vendingMachineNumber: Swift::Int32, connectionTimeout: Foundation::TimeInterval = 30.0, costCenterId: Foundation::NSNumber? = nil)
+  public func startVending(authKey: Swift::String, apiKey: Swift::String, vendingMachineNumber: Swift::Int32, connectionTimeout: Foundation::TimeInterval = 30.0, costCenterId: Swift::Int64? = nil, trainingMode: Swift::Bool = false, statusCallback: @escaping (Swift::String) -> Swift::Void, transactionCallback: @escaping (VendingIosSDK::VendingTransactionResult) -> Swift::Void, trainingProductCallback: ((VendingIosSDK::VendingTrainingProduct) -> Swift::Void)? = nil)
+  public func getPurseInfo(authKey: Swift::String, apiKey: Swift::String, completion: @escaping (Swift::Result<VendingIosSDK::Purse, any Swift::Error>) -> Swift::Void)
+  public static func isTrainingPurse(_ purse: VendingIosSDK::Purse) -> Swift::Bool
+  public func createVendingArticle(authKey: Swift::String, apiKey: Swift::String, plu: Swift::String, name: Swift::String, completion: @escaping (Swift::Result<VendingIosSDK::VendingArticle, any Swift::Error>) -> Swift::Void)
+  public func assignVendingArticle(authKey: Swift::String, apiKey: Swift::String, machineNumber: Swift::Int32, selection: Swift::Int32, newArticle: VendingIosSDK::VendingArticle, completion: @escaping (Swift::Result<VendingIosSDK::VendingBaseDataResponse, any Swift::Error>) -> Swift::Void)
+  public func reloadVendingBaseData(authKey: Swift::String, apiKey: Swift::String, completion: @escaping (Swift::Result<VendingIosSDK::VendingBaseDataResponse, any Swift::Error>) -> Swift::Void)
+  public func getAvailableCostCenters(authKey: Swift::String, apiKey: Swift::String, completion: @escaping (Swift::Result<[VendingIosSDK::CostCenter], any Swift::Error>) -> Swift::Void)
+  @objc public func getAvailableCostCenters(authKey: Swift::String, apiKey: Swift::String, completion: @escaping ([VendingIosSDK::CostCenterObjC]?, (any Swift::Error)?) -> Swift::Void)
   @objc deinit
 }
